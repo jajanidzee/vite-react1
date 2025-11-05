@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.headerdiv {
+  display: flex;
+  align-items: start;
+  padding-top: 20px;
+  justify-content: space-between;
+}
+.homesection1div {
+  display: flex;
+  align-items: start;
+  gap: 50px;
+}
+.homesection1p {
+  font-size: 40px;
+}
+.button1 {
+  width: 134px;
+  height: 58px;
+  background-color: black;
+  color: #ebc1ae;
+}
+.button2 {
+  width: 170px;
+  height: 58px;
+  background-color: black;
+  box-shadow: 0 1px 2px;
+  color: #ebc1ae;
+}
+hr {
+  background-color: black;
+  width: 600px;
+  height: 2px;
+  margin-bottom: 30px;
+}
+.homesection1divchild1 {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.divimg {
+  width: 1180px;
+  height: 500px;
+  background-image: url(../../../../samushaoimg/Image\ hero.png);
+  background-color: red;
+}
